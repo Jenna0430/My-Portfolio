@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-background-color: #f5f2fe;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 75px;
+}
+h2 {
+  font-size: 46px;
+}
+h3 {
+  opacity: 0.7;
+  font-size: 24px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.9rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.flex a {
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid;
+  margin: 15px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
+
+.contactLink {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.aboutLink {
+  color: var(--primary-color);
+}
+
+.returnLink {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+.header {
+  line-height: 2.7rem;
+}
+
+.header p {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.textSection {
+  display: flex;
+}
+
+.firstsection,
+.secondsection {
+  padding: 15px;
+  background-color: var(--text-background-color);
+  margin: 15px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.footer a {
+  display: block;
+  color: var(--primary-color);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* media queries */
+
+/* 1- for small devices */
+@media (max-width: 576px) {
+      body{
+        max-width: 576px;
+      }
+      h1 {
+        font-size: 35px;
+      }
+      h2 {
+        font-size: 29px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 1.4rem;
+      }
+  }
+/* 2-for medium devices */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 39px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1.4rem;
+  }  
+
+ }
